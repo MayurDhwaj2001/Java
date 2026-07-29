@@ -1,3 +1,8 @@
+
+// equals the sum of its smaller positive factors, excluding the number itself
+// example
+//  (1 + 2 + 3 = 6)
+// (1 + 2 + 4 + 7 + 14 = 28)
 import java.util.Scanner;
 
 public class perfectNum {
