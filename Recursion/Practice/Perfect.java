@@ -1,0 +1,16 @@
+// 28: Divisors are 1, 2, 4, 7, and 14 (1 + 2 + 4 + 7 + 14 = 28)
+public class Perfect {
+    public static boolean isPerfect(int n, int m, int sum, int i) {
+        if (i == n) {
+            return m == sum;
+        }
+        if (n % i == 0) {
+            sum += i;
+        }
+        return isPerfect(n, m, sum, i + 1);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPerfect(28, 28, 0, 1));
+    }
+}
