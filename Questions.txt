@@ -1,0 +1,17 @@
+✅ Factorial
+✅ Armstrong Number            153 = 1³+5³+3³
+✅ Range Armstrong number
+✅ Strong Number               145 = 1!+4!+5!    =145=145
+Automorphic Number          A number whose square ends with the number itself. Example: 25² = 625.
+✅ Binary to decimal
+✅Decimal to binary
+Fibonacci                   0, 1, 1, 2, 3, 5...
+Fibonacci Range
+Tribonacci                  A sequence where each number is the sum of the previous three numbers.
+✅HCF                         Highest Common Factor — the largest number that divides two or more numbers exactly.
+✅LCM                         Least Common Multiple — the smallest positive number divisible by two or more numbers.
+Neon Number                 A number where the sum of the digits of its square equals the number. Example: 9²=81 → 8+1=9.
+Neon Number Range
+Palindrome Number           
+Prime Number 
+Prime Number Range

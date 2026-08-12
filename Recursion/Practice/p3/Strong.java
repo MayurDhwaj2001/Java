@@ -1,0 +1,20 @@
+public class Strong {
+    public static boolean isStrong(int n, int m, int sum) {
+        if (n == 0) {
+            return m == sum;
+        }
+        return isStrong(n / 10, m, sum + fact(n % 10));
+    }
+
+    public static int fact(int n) {
+        int f = 1;
+        for (int i = 1; i <= n; i++) {
+            f = f * i;
+        }
+        return f;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isStrong(145, 145, 0));
+    }
+}

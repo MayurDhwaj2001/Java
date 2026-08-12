@@ -7,6 +7,7 @@ public class reverseString {
     }
 
     public static void main(String[] args) {
-        System.out.println(reverseString("Hello"));
+        String s = reverseString("MayurDhwaj");
+        System.out.println(s);
     }
 }
