@@ -10,6 +10,6 @@ public class Prime {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(29, 2));
+        System.out.println(isPrime(2, 2));
     }
 }
