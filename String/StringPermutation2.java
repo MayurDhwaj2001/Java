@@ -8,7 +8,7 @@ public class StringPermutation2 {
         char temp = ch[beg];
         ch[end] = ch[beg];
         ch[beg] = temp;
-        return ch + "";
+        return new String(ch);
     }
 
     public static void main(String[] args) {

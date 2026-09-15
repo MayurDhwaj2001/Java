@@ -3,17 +3,18 @@
 //     1 2 3
 //   1 2 3 4
 // 1 2 3 4 5
-public class p2 {
+
+public class p1 {
     public static void main(String[] args) {
         int n = 5;
         for (int i = 1; i <= n; i++) {
-            for (int s = n - 1; s >= i; s--) {// For Blank Space in Left
+            for (int j = n - i; j >= 0; j--) {
                 System.out.print("  ");
             }
-            for (int j = 1; j <= i; j++) { // For Increasing Numbers
-                System.out.print(j + " ");
+            for (int k = 1; k <= i; k++) {
+                System.out.print(k + " ");
             }
-            System.out.println();
+            System.out.println("");
         }
     }
 }

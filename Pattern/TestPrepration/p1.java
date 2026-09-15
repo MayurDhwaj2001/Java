@@ -7,13 +7,13 @@ public class p1 {
     public static void main(String[] args) {
         int n = 5;
         for (int i = 1; i <= n; i++) {
-            for (int space = n - 1; space >= i; space--) {
+            for (int space = n - 1; space >= i; space--) { // Left Blank Space
                 System.out.print("  ");
             }
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= i; j++) { // Increasing numbers
                 System.out.print(j + " ");
             }
-            for (int k = i - 1; k >= 1; k--) {
+            for (int k = i - 1; k >= 1; k--) {// Decreasing Numbers
                 System.out.print(k + " ");
             }
             System.out.println();

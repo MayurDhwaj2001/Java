@@ -1,28 +1,20 @@
-//     A
-//   B   C 
-// D E F G H
-// 
-//        A
-//      B   C
-//    D       E
-//  F G H I J K L
-// 
 //         A
 //       B   C
 //     D       E
 //   F           G
 // H I J K L M N O P
-public class p3 {
+
+public class p4 {
     public static void main(String[] args) {
         char ch = 'A';
         int n = 5;
-
-        for (int i = 1; i <= n; i++) { // Number of lines
-            for (int j = 1; j <= (2 * n) - 1; j++) { // Width or number of columns
+        int col = (n * 2) - 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= col; j++) {
                 if (j + i == 6 || j - i == 4 || i == n) { // If its border
                     System.out.print(ch++ + " ");
                 } else {
-                    System.out.print("  "); // If it's inside or out of the triangle
+                    System.out.print("  ");
                 }
             }
             System.out.println();

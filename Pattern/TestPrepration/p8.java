@@ -6,7 +6,6 @@
 public class p8 {
     public static void main(String[] args) {
         int num = 4;
-        int size = (num * 2) - 1;
         int count = 1;
         char ch = 'A';
 
@@ -15,10 +14,10 @@ public class p8 {
                 System.out.print("  ");
             }
             for (int k = 1; k <= (2 * i) - 1; k++) {
-                if (k == 1 || k == (2 * i) - 1 || i == num) {
+                if (k == 1 || k == (2 * i) - 1 || i == num) { // if its border
                     System.out.print(ch++ + " ");
                 } else {
-                    System.out.print(count++ + " ");
+                    System.out.print(count++ + " ");// if inside trangle
                 }
             }
             System.out.println();
